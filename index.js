@@ -2,6 +2,6 @@
 kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyAppendKitten(name) {
-  kittens = kittens.unshift(name);
+  kittens = kittens.push(name);
   return kittens
 }
