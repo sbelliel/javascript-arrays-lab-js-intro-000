@@ -28,9 +28,9 @@ return (array.concat(kittens));
 }
 
 function removeLastKitten() {
-  return (kittens.slice(0,1))
+  return (kittens.slice(0,2))
 }
 
 function removeFirstKitten() {
-  return (kittens.slice(0,1))
+  return (kittens.slice(1))
 }
