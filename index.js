@@ -28,11 +28,9 @@ return (array.concat(kittens));
 }
 
 function removeLastKitten() {
-var  kat = kittens.pop();
-  return kat
+  return (kittens.slice(2))
 }
 
 function removeFirstKitten() {
-var  kat = kittens.shift();
-  return kat
+  return (kittens.slice())
 }
