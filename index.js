@@ -23,8 +23,7 @@ return(kittens.concat(name))
 }
 
 function prependKitten(name) {
-var  kat = kittens.unshift(name);
-  return kat
+return(name.concat(kittens))
 }
 
 function removeLastKitten() {
