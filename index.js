@@ -27,3 +27,8 @@ function prependKitten(name) {
   kat = kittens.unshift(name);
   return kat
 }
+
+function removeLastKitten() {
+  kat = kittens.pop();
+  return kat
+}
