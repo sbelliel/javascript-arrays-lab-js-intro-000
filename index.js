@@ -23,7 +23,7 @@ return(kittens.concat(name))
 }
 
 function prependKitten(name) {
-var array = [${name}]
+var array = [name]
 return (array.concat(name));
 }
 
